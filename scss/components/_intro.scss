@@ -1,0 +1,30 @@
+.intro__cell {
+    min-height: 758px;
+    position: relative;
+    z-index: 1;
+}
+
+.intro__cell--content {
+    max-width: 720px;
+}
+
+.intro__cell--images {
+    max-width: 560px;
+}
+
+.intro__picture {
+    position: absolute;
+    border: 1px solid #EBE9E9;
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0 0;
+}
+
+.intro__picture--1 {
+    top: 88px;
+    left: 0;
+}
+
+.intro__picture--2 {
+    left: 220px;
+    top: 179px;
+}

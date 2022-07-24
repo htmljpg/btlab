@@ -1,0 +1,36 @@
+.qr__block {
+    background: var(--white-color);
+    border: 1px solid var(--qr-block-border-color);
+    box-shadow: var(--qr-block-box-shadow);
+    border-radius: 16px;
+    padding: 16px;
+    min-width: 484px;
+}
+
+.qr__image {
+    padding: 10px 9px;
+}
+
+.qr__picture {
+    display: block;
+}
+
+.download-buttons__picture {
+    display: block;
+}
+
+.qr__cell--line {
+    margin-left: 19px;
+    margin-right: 20px;
+    width: 1px;
+    height: 27px;
+}
+
+.stars {
+    display: block;
+}
+
+.qr__use {
+    position: relative;
+    top: -2px;
+}

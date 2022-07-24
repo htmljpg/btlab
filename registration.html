@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ka">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body style="overflow :hidden;">
+        <div class="page">
+            <a class="jsModalTrigger" href="#registrationModal">register</a>
+
+            <div class="modal" id="registrationModal" style="opacity: 1; visibility: visible;">
+                <div class="modal__dialog modal__dialog--centered justify-content-start">
+                    <div class="modal__content">
+                        <div class="modal__body">
+                            <div class="progress-bar">
+                                <div class="progress-bar__content">
+                                    <form class="progress-bar__form" action="#">
+                                        <div class="progress-bar__page" style="display: block;">
+                                            <div class="progress-bar__row d-flex">
+                                                <div class="progress-bar__cell progress-bar__cell--left d-flex">
+                                                    <div class="progress-bar__left flex-grow-1 d-flex" data-js-pb-slides>
+                                                        <div class="progress-bar__left-inner height-fluid flex-grow-1 d-flex flex-column justify-content-center" data-js-pb-slide>
+                                                            <h3 class="progress-bar__title title title--h3 ft-size-27 helvetica-neueLT-GEO letter-spacing-002">კეთილი იყოს თქვენი მობრძანება webhr.ge-ზე</h3>
+                                                            <div class="progress-bar__left-block flex-grow-1 d-flex flex-column justify-content-center">
+                                                                <div class="form form--442">
+                                                                    <div class="form__content">
+                                                                        <div class="form__body">
+                                                                            <div class="form__group mrb-25">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">კომპანის სახელი</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001" type="text" name="text" placeholder="კომპანის სახელი">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form__group mrb-25">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">შეიყვანეთ ელ-ფოსტა</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001" type="text" name="text" placeholder="name@company.com">
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- error -->
+                                                                            <!-- <div class="form__group mrb-25">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">პაროლი</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <i class="form__icon">
+                                                                                        <img class="form__icon-picture" src="./img/svg/login/form-controls/password.svg" alt="password">
+                                                                                    </i>
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001 error" type="email" name="email" placeholder="პაროლის შეყვანა">
+                                                                                </div>
+                                                                                <span class="error-text">შეყვანილი ტეკსტი არასწორია</span>
+                                                                            </div> -->
+                                                                            <div class="form__group mrb-32">
+                                                                                <div class="form__btn-wrapper">
+                                                                                    <button class="form__btn btn btn--md btn--default btn--fluid" type="button" data-js-pb-next>
+                                                                                        <span class="btn__wrapper">
+                                                                                            <span class="btn__text">შემდეგი</span>
+                                                                                            <img class="btn__icon btn__icon--next" src="./img/svg/register/next.svg" alt="next" />
+                                                                                        </span>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <footer class="form__footer">
+                                                                            <div class="form__provider">
+                                                                                <header class="form__provider-header ft-size-15 martinique-color letter-spacing001">
+                                                                                    <span class="form__provider-header-text">ან დარეგისტრირდით</span>
+                                                                                </header>
+                                                                                <div class="form__provider-row row row-mr-5-5">
+                                                                                    <div class="form__provider-cell col-6 col-pd-5-5">
+                                                                                        <button class="form__provider-btn btn btn--md btn--outline-tertiary btn--fluid letter-spacing001 helvetica-neueLT-GEO bold btn--active-opacity-70" type="button">
+                                                                                            <i class="btn__icon btn__icon--social btn__icon--google"></i>
+                                                                                            <span class="btn__text">Google</span>
+                                                                                        </button>
+                                                                                    </div>
+                                                                                    <div class="form__provider-cell col-6 col-pd-5-5">
+                                                                                        <button class="form__provider-btn btn btn--md btn--outline-tertiary btn--fluid letter-spacing001 helvetica-neueLT-GEO bold btn--active-opacity-70" type="button">
+                                                                                            <i class="btn__icon btn__icon--social btn__icon--facebook"></i>
+                                                                                            <span class="btn__text">Facebook</span>
+                                                                                        </button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </footer>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-bar__left-inner height-fluid flex-grow-1 d-flex flex-column justify-content-start" data-js-pb-slide>
+                                                            <h3 class="progress-bar__title title title--h3 ft-size-27 helvetica-neueLT-GEO letter-spacing-002 flex-1 mrb-10">პაროლი და უსაფრთხოება</h3>
+                                                            <div class="progress-bar__left-block flex-grow-1 d-flex flex-column justify-content-center">
+                                                                <div class="form form--442">
+                                                                    <div class="form__content">
+                                                                        <div class="form__body">
+                                                                            <div class="form__group mrb-39">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color switch-password">პაროლი</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <i class="form__icon form__icon--right icon-password opacity-50 switch-password"></i>
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001" type="password" name="password">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form__group mrb-36">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">პაროლის გამეორება</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <i class="form__icon form__icon--right icon-password opacity-50 switch-password"></i>
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001" type="password" name="password2">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form__group mrb-34">
+                                                                                <label class="checkbox">
+                                                                                    <input class="checkbox__input d-none" type="checkbox" checked="">
+                                                                                    <div class="checkbox__row row-mr-3-5">
+                                                                                        <div class="checkbox__cell col-pd-3-5">
+                                                                                            <i class="checkbox__check">
+                                                                                                <i class="checkbox__icon icon-check"></i>
+                                                                                            </i>
+                                                                                        </div>
+                                                                                        <div class="checkbox__cell col-pd-3-5">
+                                                                                            <span class="checkbox__text letter-spacing001">გავეცანი და ვეთანხმები:</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </label>
+                                                                                <a class="link ft-size-14 letter-spacing001 helvetica-neueLT-GEO" href="#" target="_blank">გამოყენების წესები,</a>
+                                                                                <a class="link ft-size-14 letter-spacing001 helvetica-neueLT-GEO" href="#" target="_blank">კონფიდენციალობის პოლიტიკა</a>
+                                                                            </div>
+                                                                            <!-- error -->
+                                                                            <!-- <div class="form__group">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">პაროლი</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <i class="form__icon">
+                                                                                        <img class="form__icon-picture" src="./img/svg/login/form-controls/password.svg" alt="password">
+                                                                                    </i>
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001 error" type="email" name="email" placeholder="პაროლის შეყვანა">
+                                                                                </div>
+                                                                                <span class="error-text">შეყვანილი ტეკსტი არასწორია</span>
+                                                                            </div> -->
+                                                                            <div class="form__group">
+                                                                                <div class="form__btn-wrapper">
+                                                                                    <button class="form__btn btn btn--md btn--default btn--fluid" type="button" data-js-pb-next>
+                                                                                        <span class="btn__wrapper">
+                                                                                            <span class="btn__text">შემდეგი</span>
+                                                                                            <img class="btn__icon btn__icon--next" src="./img/svg/register/next.svg" alt="next" />
+                                                                                        </span>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-bar__left-inner height-fluid flex-grow-1 d-flex flex-column justify-content-center" data-js-pb-slide>
+                                                            <h3 class="progress-bar__title title title--h3 ft-size-27 helvetica-neueLT-GEO letter-spacing-002 flex-1">პრომო კოდი</h3>
+                                                            <div class="progress-bar__left-block flex-grow-1 d-flex flex-column justify-content-center">
+                                                                <div class="form form--442">
+                                                                    <div class="form__content">
+                                                                        <div class="form__body">
+                                                                            <div class="form__group mrb-48">
+                                                                                <label class="form__label form__label--mrb-16 martinique-color">პრომოკოდი (თუ გაქვთ)</label>
+                                                                                <div class="form__control-wrapper">
+                                                                                    <input class="form__control form__control--input ft-size-15 letter-spacing001" type="password" name="password">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form__group">
+                                                                                <div class="form__btn-wrapper">
+                                                                                    <div class="form__btn-row row row-mr-4">
+                                                                                        <div class="form__btn-cell col-6 col-pd-4">
+                                                                                            <button class="form__btn btn btn--md btn--default btn--fluid" type="button" data-js-pb-next>
+                                                                                                <span class="btn__wrapper">
+                                                                                                    <span class="btn__text">შემდეგი</span>
+                                                                                                </span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="form__btn-cell col-6 col-pd-4">
+                                                                                            <button class="form__btn btn btn--md btn--outline-default btn--fluid" type="button">
+                                                                                                <span class="btn__wrapper">
+                                                                                                    <span class="btn__text">გამოტოვება</span>
+                                                                                                </span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-bar__left-inner height-fluid flex-grow-1 d-flex flex-column justify-content-center" data-js-pb-slide>
+                                                            <div class="progress-bar__left-block mrb-60 flex-grow-1 text-center d-flex flex-column justify-content-center">
+                                                                <h3 class="progress-bar__title title title--h3 ft-size-27 helvetica-neueLT-GEO letter-spacing-002 flex-1">თქვენ წარმატებით დარეგისტრირდით!</h3>
+                                                                <p class="text text--lg letter-spacing-001 emperor-color mrb-30">გვიხარია რომ ჩვენთან ერთად ხართ და გვინდა<br> შეგახსენოთ რომ გეძლებათ შესაზლებლობა<br> შეცვალოთ სამყარო!</p>
+                                                                <button class="btn btn--md btn--default btn--max-width-353 btn--centered mrb-25" data-js-pb-finish>
+                                                                    <span class="btn__wrapper">
+                                                                        <span class="btn__text">დასრულება</span>
+                                                                    </span>
+                                                                </button>
+                                                                <a class="progress-bar__logo logo logo--big d-flex align-items-center justify-content-center" href="#">
+                                                                    <img class="logo__picture logo__picture--big" src="./img/svg/nav/logo.svg" />
+                                                                    <img class="logo__title logo__title--big" src="./img/svg/nav/logo-title-dark.svg" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="progress-bar__cell progress-bar__cell--right athens-gray-bg-color">
+                                                    <div class="progress-bar__right d-flex flex-column height-fluid">
+                                                        <div class="progress-bar__right-top flex-grow-1 d-flex">
+                                                            <div class="progress-bar__right-top-inner d-flex flex-column justify-content-center align-items-center">
+                                                                <img  class="progress-bar__right-picture" src="./img/svg/register/step-1.svg" alt="Step 1">
+                                                                <p class="progress-bar__right-text text text--sm">პროდუკტის გამოყენებას შეძლებთ<br> რამოდენიმე ნაბიჯის შემდგომ</p>
+                                                            </div>
+                                                            <div class="progress-bar__right-top-inner d-flex flex-column justify-content-center align-items-center">
+                                                                <img  class="progress-bar__right-picture" src="./img/svg/register/step-2.svg" alt="Step 1">
+                                                                <p class="progress-bar__right-text text text--sm">პროდუკტის გამოყენებას შეძლებთ<br> რამოდენიმე ნაბიჯის შემდგომ</p>
+                                                            </div>
+                                                            <div class="progress-bar__right-top-inner d-flex flex-column justify-content-center align-items-center">
+                                                                <img  class="progress-bar__right-picture" src="./img/svg/register/step-3.svg" alt="Step 3">
+                                                                <p class="progress-bar__right-text text text--sm">პრომოკოდის შესახებ იხილეთ<br> ინფორმაცია შესაბამის <a class="link" href="#" target="_blank">გვერდზე</a></p>
+                                                            </div>
+                                                            <div class="progress-bar__right-top-inner d-flex flex-column justify-content-center align-items-center">
+                                                                <img  class="progress-bar__right-picture" src="./img/svg/register/step-5.svg" alt="Step 5">
+                                                            </div>
+                                                        </div>
+                                                        <div class="progress-bar__right-bottom">
+                                                            <div class="progress-bar__steps d-flex letter-spacing-003 fira-go-upp" style="display: none;">
+                                                                <div class="progress-bar__step active">
+                                                                    <button class="progress-bar__button btn-reset" type="button">პერსონალ. ინფორმაცია</button>
+                                                                </div>
+                                                                <div class="progress-bar__step">
+                                                                    <button class="progress-bar__button btn-reset" type="button">პაროლი უსაფრთხ.</button>
+                                                                </div>
+                                                                <div class="progress-bar__step">
+                                                                    <button class="progress-bar__button btn-reset" type="button">პრომო<br> კოდი</button>
+                                                                </div>
+                                                                <div class="progress-bar__step">
+                                                                    <button class="progress-bar__button btn-reset" type="button">დასრულება</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
