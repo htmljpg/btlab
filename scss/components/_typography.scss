@@ -1,3 +1,11 @@
+.line-height-1 {
+  line-height: 1;
+}
+
+.line-height-1-0834 {
+  line-height: 1.4;
+}
+
 .line-height-1-1072 {
   line-height: 1.1072;
 }
@@ -6,20 +14,48 @@
   line-height: 1.1111;
 }
 
-.line-height-1-4 {
-  line-height: 1.4;
+.line-height-1-2 {
+  line-height: 1.2;
 }
 
 .line-height-1-3334 {
   line-height: 1.3334;
 }
 
+.line-height-1-4 {
+  line-height: 1.4;
+}
+
 .line-height-1-4286 {
   line-height: 1.4286;
 }
 
+.line-height-1-1429 {
+  line-height: 1.1429;
+}
+
+.line-height-1-2917 {
+  line-height: 1.2917;
+}
+
 .line-height-1-5 {
   line-height: 1.5;
+}
+
+.line-height-1-5556 {
+  line-height: 1.5556;
+}
+
+.ft-size-8 {
+  font-size: 8px;
+}
+
+.ft-size-9 {
+  font-size: 9px;
+}
+
+.ft-size-10 {
+  font-size: 10px;
 }
 
 .ft-size-11 {
@@ -50,6 +86,14 @@
   font-size: 17px;
 }
 
+.ft-size-18 {
+  font-size: 18px;
+}
+
+.ft-size-19 {
+  font-size: 19px;
+}
+
 .ft-size-20 {
   font-size: 20px;
 }
@@ -58,16 +102,32 @@
   font-size: 23px;
 }
 
+.ft-size-24 {
+  font-size: 24px;
+}
+
 .ft-size-27 {
   font-size: 27px;
+}
+
+.ft-size-30 {
+  font-size: 30px;
 }
 
 .ft-size-36 {
   font-size: 36px;
 }
 
+.ft-size-48 {
+  font-size: 48px;
+}
+
 .ft-size-56 {
   font-size: 56px;
+}
+
+.ft-size-60 {
+  font-size: 60px;
 }
 
 .break-word {
@@ -76,16 +136,20 @@
 
 // fonts & font, size weight, style, letter spacing
 
+.letter-spacing-0-025- {
+  letter-spacing: -0.025em;
+}
+
+.letter-spacing-0-025 {
+  letter-spacing: 0.025em;
+}
+
 .letter-spacing-05 {
   letter-spacing: 0.05em;
 }
 
-.fira-go {
-  font-family: "FiraGO", sans-serif;
-}
-
-.fira-go-upp {
-  font-family: "FiraGOUPP", sans-serif;
+.SFUIDisplay {
+  font-family: "SFUIDisplay", sans-serif;
 }
 
 .helvetica-neueLT-GEO {
@@ -94,18 +158,6 @@
 
 .helvetica-neueLT-GEO-Caps {
   font-family: "HelveticaNeueLTGEOCaps", sans-serif;
-}
-
-.inter {
-  font-family: "Inter", sans-serif;
-}
-
-.lari-symbol-V2 {
-  font-family: "LariSymbolV2", sans-serif;
-}
-
-.myriad-pro {
-  font-family: "MyriadPro", sans-serif;
 }
 
 .font-weight-100 {

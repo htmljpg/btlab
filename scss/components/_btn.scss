@@ -1,21 +1,9 @@
 .btn {
-    font-family: "FiraGOUPP", sans-serif;
-    letter-spacing: -0.02em;
-    font-weight: 600;
-    font-size: 15px;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     position: relative;
     z-index: 1;
-    line-height: 1;
-    padding-left: 21px;
-    padding-right: 21px;
     white-space: nowrap;
-    text-align: center;
-    border-radius: 8px;
     transition: all .3s ease-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   
     &:not(:active):not(:disabled):not(.disabled):hover {
       box-shadow: var(--btn-hover-shadow);
@@ -52,16 +40,6 @@
 
     &--centered {
         margin: 0 auto;
-    }
-  
-    &--default {
-        background: var(--btn-default-background-color);
-        color: var(--btn-default-text);
-
-        &:active {
-            background-color: var(--btn-default-active-background-color);
-            color: var(--btn-default-active-text);
-        }
     }
   
     &--primary {
@@ -205,5 +183,13 @@
         word-break: break-word;
         line-height: 1;
         text-align: left;
+    }
+
+    &__icon--arrow {
+        transition: all .3s ease;
+    }
+
+    &:hover &__icon--arrow {
+        transform: translate(3px);
     }
   }

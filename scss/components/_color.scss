@@ -72,8 +72,12 @@
 
 // background color
 
+.transparent-bg-color {
+    background-color: transparent;
+}
+
 .white-bg-color {
-    background-color: var(--white-bg-color);
+    background-color: var(--white-color);
 }
 
 .blue-50-bg-color {
@@ -116,6 +120,10 @@
     background-color: var(--blue-900-color);
 }
 
+.gray-50-bg-color {
+    background-color: var(--gray-50-color);
+}
+
 .gray-100-bg-color {
     background-color: var(--gray-100-color);
 }
@@ -150,4 +158,12 @@
 
 .gray-900-bg-color {
     background-color: var(--gray-900-color);
+}
+
+.indigo-200-color {
+    color: var(--indigo-200-color);
+}
+
+.indigo-200-bg-color {
+    background-color: var(--indigo-200-color);
 }
