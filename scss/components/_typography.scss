@@ -46,90 +46,6 @@
   line-height: 1.5556;
 }
 
-.ft-size-8 {
-  font-size: 8px;
-}
-
-.ft-size-9 {
-  font-size: 9px;
-}
-
-.ft-size-10 {
-  font-size: 10px;
-}
-
-.ft-size-11 {
-  font-size: 11px;
-}
-
-.ft-size-13 {
-  font-size: 13px;
-}
-
-.ft-size-12 {
-  font-size: 12px;
-}
-
-.ft-size-14 {
-  font-size: 14px;
-}
-
-.ft-size-15 {
-  font-size: 15px;
-}
-
-.ft-size-16 {
-  font-size: 16px;
-}
-
-.ft-size-17 {
-  font-size: 17px;
-}
-
-.ft-size-18 {
-  font-size: 18px;
-}
-
-.ft-size-19 {
-  font-size: 19px;
-}
-
-.ft-size-20 {
-  font-size: 20px;
-}
-
-.ft-size-23 {
-  font-size: 23px;
-}
-
-.ft-size-24 {
-  font-size: 24px;
-}
-
-.ft-size-27 {
-  font-size: 27px;
-}
-
-.ft-size-30 {
-  font-size: 30px;
-}
-
-.ft-size-36 {
-  font-size: 36px;
-}
-
-.ft-size-48 {
-  font-size: 48px;
-}
-
-.ft-size-56 {
-  font-size: 56px;
-}
-
-.ft-size-60 {
-  font-size: 60px;
-}
-
 .break-word {
   word-break: break-word;
 }
@@ -205,21 +121,262 @@
 }
 
 .text-left {
-  text-align: left!important;
+  text-align: left;
 }
 
 .text-center {
-  text-align: center!important;
+  text-align: center;
 }
 
 .text-right {
-  text-align: right!important;
+  text-align: right;
 }
 
 .text-justify {
-  text-align: justify!important;
+  text-align: justify;
+}
+
+@include sm-min {
+
+  .text-sm-left {
+    text-align: left;
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .text-sm-right {
+    text-align: right;
+  }
+
+  .text-sm-justify {
+    text-align: justify;
+  }
+
+  .font-weight-sm-100 {
+    font-weight: 100;
+  }
+  
+  .font-weight-sm-200 {
+    font-weight: 200;
+  }
+  
+  .font-weight-sm-300 {
+    font-weight: 300;
+  }
+  
+  .font-weight-sm-400 {
+    font-weight: 400;
+  }
+  
+  .font-weight-sm-500 {
+    font-weight: 500;
+  }
+  
+  .font-weight-sm-600 {
+    font-weight: 600;
+  }
+  
+  .font-weight-sm-700 {
+    font-weight: 700;
+  }
+  
+  .font-weight-sm-800 {
+    font-weight: 800;
+  }
+  
+  .font-weight-sm-900 {
+    font-weight: 900;
+  }
+}
+
+@include md-min {
+
+  .text-md-left {
+    text-align: left;
+  }
+
+  .text-md-center {
+    text-align: center;
+  }
+
+  .text-md-right {
+    text-align: right;
+  }
+
+  .text-md-justify {
+    text-align: justify;
+  }
+
+  .font-weight-md-100 {
+    font-weight: 100;
+  }
+  
+  .font-weight-md-200 {
+    font-weight: 200;
+  }
+  
+  .font-weight-md-300 {
+    font-weight: 300;
+  }
+  
+  .font-weight-md-400 {
+    font-weight: 400;
+  }
+  
+  .font-weight-md-500 {
+    font-weight: 500;
+  }
+  
+  .font-weight-md-600 {
+    font-weight: 600;
+  }
+  
+  .font-weight-md-700 {
+    font-weight: 700;
+  }
+  
+  .font-weight-md-800 {
+    font-weight: 800;
+  }
+  
+  .font-weight-md-900 {
+    font-weight: 900;
+  }
+}
+
+@include lg-min {
+
+  .text-lg-left {
+    text-align: left;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-right {
+    text-align: right;
+  }
+
+  .text-lg-justify {
+    text-align: justify;
+  }
+
+  .font-weight-lg-100 {
+    font-weight: 100;
+  }
+  
+  .font-weight-lg-200 {
+    font-weight: 200;
+  }
+  
+  .font-weight-lg-300 {
+    font-weight: 300;
+  }
+  
+  .font-weight-lg-400 {
+    font-weight: 400;
+  }
+  
+  .font-weight-lg-500 {
+    font-weight: 500;
+  }
+  
+  .font-weight-lg-600 {
+    font-weight: 600;
+  }
+  
+  .font-weight-lg-700 {
+    font-weight: 700;
+  }
+  
+  .font-weight-lg-800 {
+    font-weight: 800;
+  }
+  
+  .font-weight-lg-900 {
+    font-weight: 900;
+  }
+}
+
+@include xl-min {
+
+  .text-xl-left {
+    text-align: left;
+  }
+
+  .text-xl-center {
+    text-align: center;
+  }
+
+  .text-xl-right {
+    text-align: right;
+  }
+
+  .text-xl-justify {
+    text-align: justify;
+  }
+
+  .font-weight-xl-100 {
+    font-weight: 100;
+  }
+  
+  .font-weight-xl-200 {
+    font-weight: 200;
+  }
+  
+  .font-weight-xl-300 {
+    font-weight: 300;
+  }
+  
+  .font-weight-xl-400 {
+    font-weight: 400;
+  }
+  
+  .font-weight-xl-500 {
+    font-weight: 500;
+  }
+  
+  .font-weight-xl-600 {
+    font-weight: 600;
+  }
+  
+  .font-weight-xl-700 {
+    font-weight: 700;
+  }
+  
+  .font-weight-xl-800 {
+    font-weight: 800;
+  }
+  
+  .font-weight-xl-900 {
+    font-weight: 900;
+  }
 }
 
 .helvetica-neueLTGEOCaps {
   font-family: "HelveticaNeueLTGEOCaps", sans-serif;
+}
+@include lg-max {
+  .title--h1 {
+    line-height: 1.3572;
+  }
+  .title--h2 {
+    line-height: 1.3334;
+  }
+  .title--h4 {
+    line-height: 1.5;
+  }
+  .title--h3 {
+    line-height: 1.4;
+  }
+  .title--h5 {
+    line-height: 1.4286;
+  }
+
+  .text {
+    line-height: 1.4286;
+  }
 }

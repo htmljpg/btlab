@@ -8,13 +8,13 @@
 @import "settings";
 
 // connecting page components
+@import "./vendor/_swiper-bundle.min";
 @import "./components/icons";
+@import "./components/carousel";
 @import "./components/typography";
 @import "./components/color";
 @import "./components/spacing";
 @import "./components/scrollbar";
-@import "./components/modal";
-@import "./components/progress-bar";
 @import "./components/form";
 @import "./components/btn";
 @import "./components/social";
@@ -27,4 +27,5 @@
 @import "./components/parts";
 @import "./components/functional";
 @import "./components/finance";
+@import "./components/trusts";
 @import "./components/footer";

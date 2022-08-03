@@ -3,3 +3,9 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.business__picture {
+    @include lg-max {
+        max-width: 100px;
+    }
+}

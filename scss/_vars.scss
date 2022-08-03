@@ -2,12 +2,24 @@
 
   // colors
   --black-color: #000;
-  --white-color: #fff;
   --zumthor-color: #EFF6FF;
   --athens-gray: #E5E7EB;
 
+  --white-color: #fff;
+  --white-color-opacity-100: rgba(255, 255, 255, .1);
+  --white-color-opacity-200: rgba(255, 255, 255, .2);
+  --white-color-opacity-300: rgba(255, 255, 255, .3);
+  --white-color-opacity-400: rgba(255, 255, 255, .4);
+  --white-color-opacity-500: rgba(255, 255, 255, .5);
+  --white-color-opacity-600: rgba(255, 255, 255, .6);
+  --white-color-opacity-700: rgba(255, 255, 255, .7);
+  --white-color-opacity-800: rgba(255, 255, 255, .8);
+  --white-color-opacity-900: rgba(255, 255, 255, .9);
+
   --blue-50-color: #EFF6FF;
+  --blue-200-color: #BFDBFE;
   --blue-600-color: #2563EB;
+  --blue-700-color: #1D4ED8;
 
   --gray-50-color: #F9FAFB;
   --gray-100-color: #F3F4F6;
@@ -20,13 +32,15 @@
   --gray-800-color: #1F2937;
   --gray-900-color: #111827;
 
-
   --indigo-200-color: #C7D2FE;
+
+  --purple-700-color: #6D28D9;
+
+  --teal-600-color: #0D9488;
 
   // text
   --title-h1-font-size: 56px;
   --title-h1-line-height: 1.1072;
 
   --qr-block-border-color: var(--athens-gray);
-  --qr-block-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }

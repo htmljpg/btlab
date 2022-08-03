@@ -1,0 +1,72 @@
+
+
+.swiper-overflow-visible {
+    overflow: visible;
+}
+
+.swiper-overflow-visible {
+    overflow: visible;
+}
+.swiper-container-multirow-column>.swiper-wrapper {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.swiper-overflow-visible .swiper-wrapper {
+    z-index: 10;
+}
+.swiper-overflow-visible .swiper-slide {
+    min-height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 50;
+    transition: opacity .2s, visibility .2s, transform .2s, z-index .2s!important;
+}
+.swiper-overflow-visible .swiper-slide-active {
+    opacity: 1;
+    z-index: 500;
+    visibility: visible;
+}
+
+.dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.swiper-pagination-bullet {
+    border: none;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    margin: 0!important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet::before {
+    content: '';
+    display: block;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: var(--gray-200-color);
+    transition: all .3s ease;
+    background-clip: padding-box;
+}
+
+.swiper-pagination-bullet-active::before {
+    border-color: var(--blue-200-color);
+    background-color: var(--blue-600-color);
+}
+
+.prev, .next {
+    height: 50px;
+    width: 50px;
+    z-index: 50;
+}
+
+.prev--center, .next--center {
+    top: 50%;
+    margin-top: -25px;
+}
