@@ -44537,6 +44537,33 @@ button.swiper-pagination-bullet {
   appearance: none;
 }
 
+.select {
+  position: relative;
+  z-index: 1;
+  max-width: 218px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .select {
+    max-width: 100%;
+  }
+}
+
+.select__arrow {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  z-index: 1;
+  margin-top: -4px;
+}
+
+[disabled], .disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
 .btn {
   border: 1px solid transparent;
   position: relative;
