@@ -44636,17 +44636,19 @@ button.swiper-pagination-bullet {
 .header__cell--logo {
   flex: 1 0 auto;
 }
+@media (max-width: 991px) {
 
-.header__cell--nav {
-  position: absolute;
-  z-index: 1;
+  .header__cell--nav {
+    position: absolute;
+    z-index: 1;
+  }
 }
 
-.header__cell:last-of-type {
+.header__cell--buttons {
   min-width: 350px;
 }
 
-.header__cell:nth-of-type(2n) {
+.header__cell--nav {
   flex: 2 0 auto;
 }
 
