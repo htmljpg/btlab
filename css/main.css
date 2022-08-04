@@ -44637,6 +44637,10 @@ button.swiper-pagination-bullet {
   flex: 1 0 auto;
 }
 @media (max-width: 991px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36c6a5e64785ce23815dfd4cacad2e5e1899e5a6
   .header__cell--nav {
     position: absolute;
     z-index: 1;
@@ -44644,12 +44648,20 @@ button.swiper-pagination-bullet {
 }
 
 .header__cell--buttons {
+<<<<<<< HEAD
   min-width: 280px;
 }
 @media (min-width: 1200px) {
   .header__cell--buttons {
     min-width: 390px;
   }
+=======
+  min-width: 350px;
+}
+
+.header__cell--nav {
+  flex: 2 0 auto;
+>>>>>>> 36c6a5e64785ce23815dfd4cacad2e5e1899e5a6
 }
 
 .logo {
