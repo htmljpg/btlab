@@ -12,13 +12,18 @@
 }
 
 .check-list__inner--max-width {
-    max-width: 546px;
-    margin: 0 auto;
+    @include lg-min {
+        max-width: 546px;
+        margin: 0 auto;
+    }
 }
 
 .check-list__title {
     position: relative;
     z-index: 1;
+    display: inline;
+    vertical-align: top;
+    text-align: left;
 
     @include lg-max {
         line-height: 1.7143;

@@ -1,3 +1,10 @@
+.qr {
+    @include lg-max {
+        max-width: 298px;
+        margin: 0 auto;
+    }
+}
+
 .qr__block {
     border: 1px solid var(--qr-block-border-color);
     border-radius: 16px;

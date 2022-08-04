@@ -7,7 +7,7 @@
 .header__row {
 
     @include lg-min {
-        height: 80px;
+        height: 79px;
     }
 
     @include lg-max {
@@ -17,21 +17,19 @@
     }
 }
 
-.header__cell--logo {
-    flex: 1 0 auto;
-}
-
 .header__cell--nav {
-    position: absolute;
-    z-index: 1;
+    flex: 1 0 auto;
+    @include lg-max {
+        position: absolute;
+        z-index: 1;
+    }
 }
 
-.header__cell:last-of-type {
-    min-width: 350px;
-}
-
-.header__cell:nth-of-type(2n) {
-    flex: 2 0 auto;
+.header__cell--buttons {
+    min-width: 280px;
+    @include xl-min {
+        min-width: 390px;
+    }
 }
 
 .logo {
@@ -95,6 +93,7 @@
 
 .nav__header {
     border-bottom: 1px solid var(--gray-200-color);
+    flex-shrink: 0;
 }
 
 .nav__header-row {
@@ -117,7 +116,7 @@
     position: relative;
     z-index: 1;
 
-    @include md-min {
+    @include lg-min {
         height: 78px;
         display: flex;
         align-items: center;
@@ -134,7 +133,7 @@
     content: '';
     position: absolute;
     
-    @include md-min {
+    @include lg-min {
         left: 0;
         right: 0;
         bottom: -1px;
@@ -186,4 +185,8 @@
     bottom: 0;
     top: 0;
     background-color: rgba(0, 0, 0, .4);
+}
+
+.nav__footer {
+    flex-shrink: 0;
 }

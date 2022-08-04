@@ -1,3 +1,11 @@
+.intro__row {
+    @include lg-max {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .intro__cell {
     position: relative;
     z-index: 1;
@@ -20,11 +28,13 @@
         position: relative;
         z-index: 1;
         left: -44px;
-        max-width: 380px;
-        margin: 0 auto;
         display: flex;
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 18px;
         align-items: flex-end;
+        justify-content: flex-end;
     }
 }
 

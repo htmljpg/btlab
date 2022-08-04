@@ -122,7 +122,7 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
   padding: 0;
 }
 
-.overflow-hidden {
+.oh {
   overflow: hidden !important;
 }
 
@@ -191,11 +191,11 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
   min-height: 100vh;
 }
 
-.vertical-align-top {
+.vat {
   vertical-align: top;
 }
 
-.vertical-align-middle {
+.vam {
   vertical-align: middle;
 }
 
@@ -207,23 +207,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
   border: 1px solid var(--gray-300-color);
 }
 
-.box-shadow-sm {
+.bs-sm {
   box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 }
 
-.box-shadow-md {
+.bs-md {
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.box-shadow-lg {
+.bs-lg {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-.box-shadow-2xl {
+.bs-2xl {
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-.box-shadow-base {
+.bs-base {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
 }
 
@@ -391,23 +391,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
 }
 
 @for $i from 0 to 101 {
-  .brr-top-left-#{$i} {
+  .brrtl-#{$i} {
     border-top-left-radius: 1px * $i;
   }
 
-  .brr-top-right-#{$i} {
+  .brrtr-#{$i} {
     border-top-right-radius: 1px * $i;
   }
 
-  .brr-bottom-right-#{$i} {
+  .brrbr-#{$i} {
     border-bottom-right-radius: 1px * $i;
   }
 
-  .brr-bottom-left-#{$i} {
+  .brrbl-#{$i} {
     border-bottom-left-radius: 1px * $i;
   }
 
-  .ft-size-#{$i} {
+  .fts-#{$i} {
     font-size: 1px * $i;
   }
 }
@@ -509,23 +509,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
   }
 
   @for $i from 0 to 101 {
-    .brr-top-left-sm-#{$i} {
+    .brrtl-sm-#{$i} {
       border-top-left-radius: 1px * $i;
     }
 
-    .brr-top-right-sm-#{$i} {
+    .brrtr-sm-#{$i} {
       border-top-right-radius: 1px * $i;
     }
 
-    .brr-bottom-right-sm-#{$i} {
+    .brrbr-sm-#{$i} {
       border-bottom-right-radius: 1px * $i;
     }
 
-    .brr-bottom-left-sm-#{$i} {
+    .brrbl-sm-#{$i} {
       border-bottom-left-radius: 1px * $i;
     }
 
-    .ft-size-sm-#{$i} {
+    .fts-sm-#{$i} {
       font-size: 1px * $i;
     }
   }
@@ -643,23 +643,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
     }
   }
   @for $i from 0 to 101 {
-    .brr-top-left-md-#{$i} {
+    .brrtl-md-#{$i} {
       border-top-left-radius: 1px * $i;
     }
 
-    .brr-top-right-md-#{$i} {
+    .brrtr-md-#{$i} {
       border-top-right-radius: 1px * $i;
     }
 
-    .brr-bottom-right-md-#{$i} {
+    .brrbr-md-#{$i} {
       border-bottom-right-radius: 1px * $i;
     }
 
-    .brr-bottom-left-md-#{$i} {
+    .brrbl-md-#{$i} {
       border-bottom-left-radius: 1px * $i;
     }
 
-    .ft-size-md-#{$i} {
+    .fts-md-#{$i} {
       font-size: 1px * $i;
     }
   }
@@ -777,23 +777,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
     }
   }
   @for $i from 0 to 101 {
-    .brr-top-left-lg-#{$i} {
+    .brrtl-lg-#{$i} {
       border-top-left-radius: 1px * $i;
     }
 
-    .brr-top-right-lg-#{$i} {
+    .brrtr-lg-#{$i} {
       border-top-right-radius: 1px * $i;
     }
 
-    .brr-bottom-right-lg-#{$i} {
+    .brrbr-lg-#{$i} {
       border-bottom-right-radius: 1px * $i;
     }
 
-    .brr-bottom-left-lg-#{$i} {
+    .brrbl-lg-#{$i} {
       border-bottom-left-radius: 1px * $i;
     }
 
-    .ft-size-lg-#{$i} {
+    .fts-lg-#{$i} {
       font-size: 1px * $i;
     }
   }
@@ -911,23 +911,23 @@ button, input::placeholder, optgroup::placeholder, select::placeholder, textarea
     }
   }
   @for $i from 0 to 101 {
-    .brr-top-left-xl-#{$i} {
+    .brrtl-xl-#{$i} {
       border-top-left-radius: 1px * $i;
     }
 
-    .brr-top-right-xl-#{$i} {
+    .brrtr-xl-#{$i} {
       border-top-right-radius: 1px * $i;
     }
 
-    .brr-bottom-right-xl-#{$i} {
+    .brrbr-xl-#{$i} {
       border-bottom-right-radius: 1px * $i;
     }
 
-    .brr-bottom-left-xl-#{$i} {
+    .brrbl-xl-#{$i} {
       border-bottom-left-radius: 1px * $i;
     }
 
-    .ft-size-xl-#{$i} {
+    .fts-xl-#{$i} {
       font-size: 1px * $i;
     }
   }

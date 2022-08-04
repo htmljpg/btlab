@@ -1,0 +1,6 @@
+.top__image {
+    @include lg-max {
+        max-width: none;
+        max-height: 332px;
+    }
+}

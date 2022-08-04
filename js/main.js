@@ -34,11 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
         watchOverflow: true,
         watchSlidesVisibility: true,
         cssMode: false,
-        loop: false,
+        loop: true,
         navigation: {
         nextEl: '.next',
         prevEl: '.prev',
         allowTouchMove: true,
+        autoplay: {
+            delay: 5000,
+        },
     },
         pagination: {
         el: '.dots',
