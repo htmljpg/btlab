@@ -45029,8 +45029,6 @@ button.swiper-pagination-bullet {
 .check-list__title {
   position: relative;
   z-index: 1;
-  display: inline;
-  vertical-align: top;
   text-align: left;
 }
 @media (max-width: 991px) {
