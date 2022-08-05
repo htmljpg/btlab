@@ -28,30 +28,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    let reviews_swiper = new Swiper('.swiper-reviews', {
+    let reviews_swiper2 = new Swiper('.swiper-reviews2', {
         slidesPerView: 1,
         simulateTouch: false,
-        watchOverflow: true,
-        watchSlidesVisibility: true,
+        watchOverflow: false,
+        watchSlidesVisibility: false,
         cssMode: false,
         loop: true,
         navigation: {
         nextEl: '.next',
         prevEl: '.prev',
-        allowTouchMove: true,
+        allowTouchMove: false,
         autoplay: {
-            delay: 5000,
+            delay: 1000,
+            disableOnInteraction: false,
         },
     },
         pagination: {
         el: '.dots',
         clickable: true,
     },
-        mousewheel: {
-        forceToAxis: true,
-    },
-        touchReleaseOnEdges: true,
+        touchReleaseOnEdges: false,
         keyboard: false,
     });
+
+    var reviews_swiper = new Swiper('.swiper-reviews', {
+        watchOverflow: true,
+        watchSlidesVisibility: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.dots',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.next',
+          prevEl: '.prev',
+        },
+      });
 
 });

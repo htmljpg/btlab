@@ -161,14 +161,16 @@
 }
 
 .nav__link.active {
-    color: var(--blue-600-color);
-
     @include md-min {
         font-weight: 700;
     }
 }
 
-.nav__link.active::after {
+.nav__link.active, .nav__link:hover {
+    color: var(--blue-600-color);
+}
+
+.nav__link.active::after, .nav__link:hover::after {
     @include md-min {
         opacity: 1;
         visibility: visible;

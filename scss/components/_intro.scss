@@ -25,16 +25,15 @@
     @include lg-max {
         overflow: hidden;
         padding-left: 53px;
+        padding-right: 53px;
         position: relative;
         z-index: 1;
-        left: -44px;
         display: flex;
-        max-width: 380px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -58px;
+        margin-right: -58px;
         padding-top: 18px;
-        align-items: flex-end;
-        justify-content: flex-end;
+        align-items: flex-start;
+        max-height: 99%;
     }
 }
 
@@ -52,7 +51,7 @@
     left: 18px;
 
     @include lg-max {
-        width: 74%;
+        width: 66%;
     }
 }
 
@@ -61,7 +60,7 @@
     top: 180px;
 
     @include lg-max {
-        margin-left: -35%;
+        margin-left: -31%;
         margin-top: 14%;
         width: 66%;
         display: block;

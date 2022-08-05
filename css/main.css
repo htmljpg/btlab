@@ -44381,7 +44381,7 @@ button.swiper-pagination-bullet {
   color: var(--white-color);
 }
 
-.white-color-hover:hover {
+.white-hover:hover {
   color: var(--white-color);
 }
 
@@ -44637,10 +44637,6 @@ button.swiper-pagination-bullet {
   flex: 1 0 auto;
 }
 @media (max-width: 991px) {
-<<<<<<< HEAD
-=======
-
->>>>>>> 36c6a5e64785ce23815dfd4cacad2e5e1899e5a6
   .header__cell--nav {
     position: absolute;
     z-index: 1;
@@ -44648,20 +44644,12 @@ button.swiper-pagination-bullet {
 }
 
 .header__cell--buttons {
-<<<<<<< HEAD
   min-width: 280px;
 }
 @media (min-width: 1200px) {
   .header__cell--buttons {
     min-width: 390px;
   }
-=======
-  min-width: 350px;
-}
-
-.header__cell--nav {
-  flex: 2 0 auto;
->>>>>>> 36c6a5e64785ce23815dfd4cacad2e5e1899e5a6
 }
 
 .logo {
@@ -44797,17 +44785,18 @@ button.swiper-pagination-bullet {
   }
 }
 
-.nav__link.active {
-  color: var(--blue-600-color);
-}
 @media (min-width: 768px) {
   .nav__link.active {
     font-weight: 700;
   }
 }
 
+.nav__link.active, .nav__link:hover {
+  color: var(--blue-600-color);
+}
+
 @media (min-width: 768px) {
-  .nav__link.active::after {
+  .nav__link.active::after, .nav__link:hover::after {
     opacity: 1;
     visibility: visible;
   }
@@ -44857,16 +44846,15 @@ button.swiper-pagination-bullet {
   .intro__images {
     overflow: hidden;
     padding-left: 53px;
+    padding-right: 53px;
     position: relative;
     z-index: 1;
-    left: -44px;
     display: flex;
-    max-width: 380px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -58px;
+    margin-right: -58px;
     padding-top: 18px;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    max-height: 99%;
   }
 }
 
@@ -44886,7 +44874,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .intro__picture--1 {
-    width: 74%;
+    width: 66%;
   }
 }
 
@@ -44896,7 +44884,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .intro__picture--2 {
-    margin-left: -35%;
+    margin-left: -31%;
     margin-top: 14%;
     width: 66%;
     display: block;
