@@ -33,7 +33,7 @@
 .check-list__title::before {
     content: '';
     display: block;
-    background: url(../../img/svg/checked-white.svg) no-repeat center;
+    background: url(../img/svg/checked-white.svg) no-repeat center;
     background-size: 12px 10px;
     height: 24px;
     width: 24px;
@@ -49,7 +49,7 @@
 }
 
 .check-list__title--green::before {
-    background-image: url(../../img/svg/checked-green.svg);
+    background-image: url(../img/svg/checked-green.svg);
 }
 
 .check-list__title--center::before {
